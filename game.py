@@ -42,8 +42,6 @@ class Game:
 
                 result = self.player.currentAction.attack(self.player.currentAction, self.computer.currentAction)
 
-                print(result)
-
                 if result == True:
                     self.player.score += 1;
                 if result == False:

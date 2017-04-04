@@ -20,10 +20,10 @@ class Paper(Action):
         return None
     def got_attacked_by_rock(self, action):
         print("You chose " + action.name + ", your opponent chose paper. Your opponent wins!\n")
-        return True
+        return False
     def got_attacked_by_scissors(self, action):
         print("You chose " + action.name + ", your opponent chose paper. You win!\n")
-        return False
+        return True
     pass
 
 class Rock(Action):
