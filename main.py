@@ -1,5 +1,5 @@
 class Paper:
-    name = "Paper"
+    name = "paper"
 
     def attack(self, action):
         action.got_attacked_by_paper(self)
@@ -13,7 +13,7 @@ class Paper:
 
 
 class Rock:
-    name = "Rock"
+    name = "rock"
 
     def attack(self, action):
         action.got_attacked_by_rock(self)
@@ -26,7 +26,7 @@ class Rock:
         print("You chose " + action.name + ", your opponent chose rock. Your opponent wins!\n")
 
 class Scissors:
-    name = "Scissors"
+    name = "scissors"
 
     def attack(self, action):
         action.got_attacked_by_sissors(self)
@@ -45,6 +45,6 @@ try:
     print(int(var) + 3)
 except ValueError:
     print('nto')'''
-paper = Paper()
+action = Rock()
 
-paper.attack(Rock())
+action.attack(Rock())
