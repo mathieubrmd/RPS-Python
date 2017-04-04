@@ -1,3 +1,9 @@
+'''
+action.py - Define the different types of actions - Paper/Rock/Scissors
+Mathieu Bourmaud - 19941124-P335
+Martin Porrès -
+'''
+
 class Paper:
     name = "paper"
 
