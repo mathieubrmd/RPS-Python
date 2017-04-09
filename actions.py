@@ -1,7 +1,7 @@
 '''
 action.py - Define the different types of actions - Paper/Rock/Scissors
 Mathieu Bourmaud - 19941124-P335
-Martin Porrès -
+Martin Porrès - 19940926-P170
 '''
 
 import random
@@ -16,13 +16,13 @@ class Paper(Action):
         return action.got_attacked_by_paper(self, self)
 
     def got_attacked_by_paper(self, action):
-        print("You chose " + action.name + ", your opponent chose paper. It's a tie!\n")
+        print("You chose " + action.name + ", your opponent choose paper. It's a tie!\n")
         return None
     def got_attacked_by_rock(self, action):
-        print("You chose " + action.name + ", your opponent chose paper. Your opponent wins!\n")
+        print("You chose " + action.name + ", your opponent choose paper. Your opponent wins!\n")
         return False
     def got_attacked_by_scissors(self, action):
-        print("You chose " + action.name + ", your opponent chose paper. You win!\n")
+        print("You chose " + action.name + ", your opponent choose paper. You win!\n")
         return True
     pass
 

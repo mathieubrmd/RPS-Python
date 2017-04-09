@@ -1,7 +1,7 @@
 '''
 scanner.py - Read the user input in the console
 Mathieu Bourmaud - 19941124-P335
-Martin Porrès -
+Martin Porrès - 19940926-P170
 '''
 
 import sys
